@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC347EEB287A21DF00809EFD /* ViewControllerStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC347EEA287A21DF00809EFD /* ViewControllerStream.swift */; };
+		EC500EF9287A03A1007E5502 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EEC287A03A0007E5502 /* cat.png */; };
+		EC500EFA287A03A1007E5502 /* message (1).png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EED287A03A0007E5502 /* message (1).png */; };
+		EC500EFB287A03A1007E5502 /* mes1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EEE287A03A0007E5502 /* mes1.png */; };
+		EC500EFC287A03A1007E5502 /* 제목 없음-1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EEF287A03A0007E5502 /* 제목 없음-1.png */; };
+		EC500EFD287A03A1007E5502 /* lovedive.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF0287A03A0007E5502 /* lovedive.png */; };
+		EC500EFE287A03A1007E5502 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF1287A03A0007E5502 /* white.png */; };
+		EC500EFF287A03A1007E5502 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF2287A03A0007E5502 /* dog.png */; };
+		EC500F00287A03A1007E5502 /* 제목 없음-1 복사.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF3287A03A0007E5502 /* 제목 없음-1 복사.png */; };
+		EC500F01287A03A1007E5502 /* 영원1 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF4287A03A0007E5502 /* 영원1 (1).png */; };
+		EC500F02287A03A1007E5502 /* sadoxy.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF5287A03A1007E5502 /* sadoxy.png */; };
+		EC500F03287A03A1007E5502 /* won (1).png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF6287A03A1007E5502 /* won (1).png */; };
+		EC500F04287A03A1007E5502 /* 제목 없음-2 (1) 복사.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF7287A03A1007E5502 /* 제목 없음-2 (1) 복사.png */; };
+		EC500F05287A03A1007E5502 /* IMG_3638.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC500EF8287A03A1007E5502 /* IMG_3638.PNG */; };
+		EC500F07287A0C99007E5502 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500F06287A0C98007E5502 /* profile.png */; };
+		EC500F09287A1049007E5502 /* sadoxygen.png in Resources */ = {isa = PBXBuildFile; fileRef = EC500F08287A1049007E5502 /* sadoxygen.png */; };
+		EC500F0B287A1B27007E5502 /* ViewControllerSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500F0A287A1B27007E5502 /* ViewControllerSearch.swift */; };
+		EC63B71F2875F84B00C4FCCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63B71E2875F84B00C4FCCD /* AppDelegate.swift */; };
+		EC63B7212875F84B00C4FCCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63B7202875F84B00C4FCCD /* SceneDelegate.swift */; };
+		EC63B7232875F84B00C4FCCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63B7222875F84B00C4FCCD /* ViewController.swift */; };
+		EC63B7262875F84B00C4FCCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC63B7242875F84B00C4FCCD /* Main.storyboard */; };
+		EC63B7282875F84C00C4FCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC63B7272875F84C00C4FCCD /* Assets.xcassets */; };
+		EC63B72B2875F84C00C4FCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC63B7292875F84C00C4FCCD /* LaunchScreen.storyboard */; };
+		EC63B7332876149200C4FCCD /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63B7322876149200C4FCCD /* ViewControllerHome.swift */; };
+		EC63B736287884CA00C4FCCD /* pro-dog.png in Resources */ = {isa = PBXBuildFile; fileRef = EC63B735287884CA00C4FCCD /* pro-dog.png */; };
+		EC63B73B287884E300C4FCCD /* dog1-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = EC63B739287884E300C4FCCD /* dog1-pro.png */; };
+		EC63B73C287884E300C4FCCD /* jeon-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = EC63B73A287884E300C4FCCD /* jeon-pro.png */; };
+		EC63B73E28788E6300C4FCCD /* blackcat-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = EC63B73D28788E6300C4FCCD /* blackcat-pro.png */; };
+		EC63B74028788E7300C4FCCD /* sieun-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = EC63B73F28788E7300C4FCCD /* sieun-pro.png */; };
+		EC63B7462878AFDD00C4FCCD /* on-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = EC63B7452878AFDD00C4FCCD /* on-pro.png */; };
+		ECA69B84287A25C4008A936B /* ViewControllerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA69B83287A25C4008A936B /* ViewControllerLibrary.swift */; };
+		ECA69B8C287C28CB008A936B /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA69B8B287C28CB008A936B /* ViewControllerMain.swift */; };
+		ECA69B90287C2D59008A936B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA69B8E287C2D59008A936B /* logo.png */; };
+		ECA69B92287C3381008A936B /* ViewControllerMain2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA69B91287C3381008A936B /* ViewControllerMain2.swift */; };
+		ECA69B94287C5418008A936B /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA69B93287C5418008A936B /* background1.png */; };
+		ECA69B96287C6F5F008A936B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA69B95287C6F5F008A936B /* TabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC347EEA287A21DF00809EFD /* ViewControllerStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStream.swift; sourceTree = "<group>"; };
+		EC500EEC287A03A0007E5502 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../../../../Downloads/cat.png; sourceTree = "<group>"; };
+		EC500EED287A03A0007E5502 /* message (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "message (1).png"; path = "../../../../Creative Cloud Files/message (1).png"; sourceTree = "<group>"; };
+		EC500EEE287A03A0007E5502 /* mes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mes1.png; path = ../../../../Downloads/mes1.png; sourceTree = "<group>"; };
+		EC500EEF287A03A0007E5502 /* 제목 없음-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "제목 없음-1.png"; path = "../../../SoundCloud_1/New Group/제목 없음-1.png"; sourceTree = "<group>"; };
+		EC500EF0287A03A0007E5502 /* lovedive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lovedive.png; path = "../../../../Downloads/iloveimg-resized/lovedive.png"; sourceTree = "<group>"; };
+		EC500EF1287A03A0007E5502 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = "../../../../Downloads/iOS Image/white.png"; sourceTree = "<group>"; };
+		EC500EF2287A03A0007E5502 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = ../../../../Downloads/dog.png; sourceTree = "<group>"; };
+		EC500EF3287A03A0007E5502 /* 제목 없음-1 복사.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "제목 없음-1 복사.png"; path = "../../../../Downloads/iloveimg-resized/제목 없음-1 복사.png"; sourceTree = "<group>"; };
+		EC500EF4287A03A0007E5502 /* 영원1 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "영원1 (1).png"; path = "../../../../Downloads/영원1 (1).png"; sourceTree = "<group>"; };
+		EC500EF5287A03A1007E5502 /* sadoxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadoxy.png; path = ../../../../Downloads/sadoxy.png; sourceTree = "<group>"; };
+		EC500EF6287A03A1007E5502 /* won (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "won (1).png"; path = "../../../../Downloads/won (1).png"; sourceTree = "<group>"; };
+		EC500EF7287A03A1007E5502 /* 제목 없음-2 (1) 복사.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "제목 없음-2 (1) 복사.png"; path = "../../../../Downloads/제목 없음-2 (1) 복사.png"; sourceTree = "<group>"; };
+		EC500EF8287A03A1007E5502 /* IMG_3638.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_3638.PNG; path = ../../../../Downloads/IMG_3638.PNG; sourceTree = "<group>"; };
+		EC500F06287A0C98007E5502 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../../Downloads/profile.png; sourceTree = "<group>"; };
+		EC500F08287A1049007E5502 /* sadoxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadoxygen.png; path = ../../../../Desktop/clone/sadoxygen.png; sourceTree = "<group>"; };
+		EC500F0A287A1B27007E5502 /* ViewControllerSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSearch.swift; sourceTree = "<group>"; };
+		EC63B71B2875F84B00C4FCCD /* SoundCloud2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloud2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC63B71E2875F84B00C4FCCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC63B7202875F84B00C4FCCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC63B7222875F84B00C4FCCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC63B7252875F84B00C4FCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC63B7272875F84C00C4FCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC63B72A2875F84C00C4FCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC63B72C2875F84C00C4FCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC63B7322876149200C4FCCD /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		EC63B735287884CA00C4FCCD /* pro-dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pro-dog.png"; path = "../../../../Desktop/clone/pro-dog.png"; sourceTree = "<group>"; };
+		EC63B739287884E300C4FCCD /* dog1-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dog1-pro.png"; path = "../../../../Desktop/clone/dog1-pro.png"; sourceTree = "<group>"; };
+		EC63B73A287884E300C4FCCD /* jeon-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jeon-pro.png"; path = "../../../../Desktop/clone/jeon-pro.png"; sourceTree = "<group>"; };
+		EC63B73D28788E6300C4FCCD /* blackcat-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackcat-pro.png"; path = "../../../../Desktop/clone/blackcat-pro.png"; sourceTree = "<group>"; };
+		EC63B73F28788E7300C4FCCD /* sieun-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sieun-pro.png"; path = "../../../../Desktop/clone/sieun-pro.png"; sourceTree = "<group>"; };
+		EC63B7452878AFDD00C4FCCD /* on-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "on-pro.png"; path = "../../../../Desktop/clone/on-pro.png"; sourceTree = "<group>"; };
+		ECA69B83287A25C4008A936B /* ViewControllerLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLibrary.swift; sourceTree = "<group>"; };
+		ECA69B8B287C28CB008A936B /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		ECA69B8E287C2D59008A936B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/logo.png; sourceTree = "<group>"; };
+		ECA69B91287C3381008A936B /* ViewControllerMain2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain2.swift; sourceTree = "<group>"; };
+		ECA69B93287C5418008A936B /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background1.png; path = ../../../../Downloads/background1.png; sourceTree = "<group>"; };
+		ECA69B95287C6F5F008A936B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC63B7182875F84B00C4FCCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC63B7122875F84B00C4FCCD = {
+			isa = PBXGroup;
+			children = (
+				EC63B71D2875F84B00C4FCCD /* SoundCloud2 */,
+				EC63B71C2875F84B00C4FCCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC63B71C2875F84B00C4FCCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC63B71B2875F84B00C4FCCD /* SoundCloud2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC63B71D2875F84B00C4FCCD /* SoundCloud2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC63B734287884B000C4FCCD /* images */,
+				ECA69B8B287C28CB008A936B /* ViewControllerMain.swift */,
+				ECA69B91287C3381008A936B /* ViewControllerMain2.swift */,
+				ECA69B95287C6F5F008A936B /* TabBarController.swift */,
+				EC63B7322876149200C4FCCD /* ViewControllerHome.swift */,
+				EC347EEA287A21DF00809EFD /* ViewControllerStream.swift */,
+				EC500F0A287A1B27007E5502 /* ViewControllerSearch.swift */,
+				ECA69B83287A25C4008A936B /* ViewControllerLibrary.swift */,
+				EC63B71E2875F84B00C4FCCD /* AppDelegate.swift */,
+				EC63B7202875F84B00C4FCCD /* SceneDelegate.swift */,
+				EC63B7222875F84B00C4FCCD /* ViewController.swift */,
+				EC63B7242875F84B00C4FCCD /* Main.storyboard */,
+				EC63B7272875F84C00C4FCCD /* Assets.xcassets */,
+				EC63B7292875F84C00C4FCCD /* LaunchScreen.storyboard */,
+				EC63B72C2875F84C00C4FCCD /* Info.plist */,
+			);
+			path = SoundCloud2;
+			sourceTree = "<group>";
+		};
+		EC63B734287884B000C4FCCD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ECA69B8E287C2D59008A936B /* logo.png */,
+				EC63B739287884E300C4FCCD /* dog1-pro.png */,
+				EC63B73A287884E300C4FCCD /* jeon-pro.png */,
+				EC63B7452878AFDD00C4FCCD /* on-pro.png */,
+				ECA69B93287C5418008A936B /* background1.png */,
+				EC500F06287A0C98007E5502 /* profile.png */,
+				EC500EF4287A03A0007E5502 /* 영원1 (1).png */,
+				EC500EF3287A03A0007E5502 /* 제목 없음-1 복사.png */,
+				EC500EEF287A03A0007E5502 /* 제목 없음-1.png */,
+				EC500EF7287A03A1007E5502 /* 제목 없음-2 (1) 복사.png */,
+				EC500EEC287A03A0007E5502 /* cat.png */,
+				EC500EF2287A03A0007E5502 /* dog.png */,
+				EC500EF8287A03A1007E5502 /* IMG_3638.PNG */,
+				EC500EF0287A03A0007E5502 /* lovedive.png */,
+				EC500EEE287A03A0007E5502 /* mes1.png */,
+				EC500EED287A03A0007E5502 /* message (1).png */,
+				EC500F08287A1049007E5502 /* sadoxygen.png */,
+				EC500EF5287A03A1007E5502 /* sadoxy.png */,
+				EC500EF1287A03A0007E5502 /* white.png */,
+				EC500EF6287A03A1007E5502 /* won (1).png */,
+				EC63B73D28788E6300C4FCCD /* blackcat-pro.png */,
+				EC63B73F28788E7300C4FCCD /* sieun-pro.png */,
+				EC63B735287884CA00C4FCCD /* pro-dog.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC63B71A2875F84B00C4FCCD /* SoundCloud2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC63B72F2875F84C00C4FCCD /* Build configuration list for PBXNativeTarget "SoundCloud2" */;
+			buildPhases = (
+				EC63B7172875F84B00C4FCCD /* Sources */,
+				EC63B7182875F84B00C4FCCD /* Frameworks */,
+				EC63B7192875F84B00C4FCCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundCloud2;
+			productName = SoundCloud2;
+			productReference = EC63B71B2875F84B00C4FCCD /* SoundCloud2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC63B7132875F84B00C4FCCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EC63B71A2875F84B00C4FCCD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EC63B7162875F84B00C4FCCD /* Build configuration list for PBXProject "SoundCloud2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC63B7122875F84B00C4FCCD;
+			productRefGroup = EC63B71C2875F84B00C4FCCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC63B71A2875F84B00C4FCCD /* SoundCloud2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC63B7192875F84B00C4FCCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA69B90287C2D59008A936B /* logo.png in Resources */,
+				EC500EFC287A03A1007E5502 /* 제목 없음-1.png in Resources */,
+				EC500F05287A03A1007E5502 /* IMG_3638.PNG in Resources */,
+				EC500F09287A1049007E5502 /* sadoxygen.png in Resources */,
+				EC500EF9287A03A1007E5502 /* cat.png in Resources */,
+				EC63B73C287884E300C4FCCD /* jeon-pro.png in Resources */,
+				EC63B72B2875F84C00C4FCCD /* LaunchScreen.storyboard in Resources */,
+				EC500EFF287A03A1007E5502 /* dog.png in Resources */,
+				EC63B73B287884E300C4FCCD /* dog1-pro.png in Resources */,
+				EC500EFE287A03A1007E5502 /* white.png in Resources */,
+				EC63B74028788E7300C4FCCD /* sieun-pro.png in Resources */,
+				ECA69B94287C5418008A936B /* background1.png in Resources */,
+				EC500EFB287A03A1007E5502 /* mes1.png in Resources */,
+				EC500EFD287A03A1007E5502 /* lovedive.png in Resources */,
+				EC63B7282875F84C00C4FCCD /* Assets.xcassets in Resources */,
+				EC63B736287884CA00C4FCCD /* pro-dog.png in Resources */,
+				EC500F03287A03A1007E5502 /* won (1).png in Resources */,
+				EC500F04287A03A1007E5502 /* 제목 없음-2 (1) 복사.png in Resources */,
+				EC63B7462878AFDD00C4FCCD /* on-pro.png in Resources */,
+				EC63B73E28788E6300C4FCCD /* blackcat-pro.png in Resources */,
+				EC63B7262875F84B00C4FCCD /* Main.storyboard in Resources */,
+				EC500EFA287A03A1007E5502 /* message (1).png in Resources */,
+				EC500F07287A0C99007E5502 /* profile.png in Resources */,
+				EC500F02287A03A1007E5502 /* sadoxy.png in Resources */,
+				EC500F01287A03A1007E5502 /* 영원1 (1).png in Resources */,
+				EC500F00287A03A1007E5502 /* 제목 없음-1 복사.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC63B7172875F84B00C4FCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC500F0B287A1B27007E5502 /* ViewControllerSearch.swift in Sources */,
+				EC63B7232875F84B00C4FCCD /* ViewController.swift in Sources */,
+				EC347EEB287A21DF00809EFD /* ViewControllerStream.swift in Sources */,
+				ECA69B96287C6F5F008A936B /* TabBarController.swift in Sources */,
+				ECA69B92287C3381008A936B /* ViewControllerMain2.swift in Sources */,
+				ECA69B8C287C28CB008A936B /* ViewControllerMain.swift in Sources */,
+				EC63B71F2875F84B00C4FCCD /* AppDelegate.swift in Sources */,
+				EC63B7212875F84B00C4FCCD /* SceneDelegate.swift in Sources */,
+				EC63B7332876149200C4FCCD /* ViewControllerHome.swift in Sources */,
+				ECA69B84287A25C4008A936B /* ViewControllerLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC63B7242875F84B00C4FCCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC63B7252875F84B00C4FCCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC63B7292875F84C00C4FCCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC63B72A2875F84C00C4FCCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC63B72D2875F84C00C4FCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC63B72E2875F84C00C4FCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC63B7302875F84C00C4FCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4DKJ8AHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundCloud2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chae.SoundCloud2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC63B7312875F84C00C4FCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4DKJ8AHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundCloud2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chae.SoundCloud2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC63B7162875F84B00C4FCCD /* Build configuration list for PBXProject "SoundCloud2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC63B72D2875F84C00C4FCCD /* Debug */,
+				EC63B72E2875F84C00C4FCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC63B72F2875F84C00C4FCCD /* Build configuration list for PBXNativeTarget "SoundCloud2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC63B7302875F84C00C4FCCD /* Debug */,
+				EC63B7312875F84C00C4FCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC63B7132875F84B00C4FCCD /* Project object */;
+}

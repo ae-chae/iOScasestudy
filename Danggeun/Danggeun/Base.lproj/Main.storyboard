@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUU-bV-mEb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--나의 당근-->
+        <scene sceneID="83h-K9-9ig">
+            <objects>
+                <viewController id="xBk-gU-V4W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rQp-s9-e5g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="OcG-Z7-dNw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="나의 당근" image="myCarrotIcon" selectedImage="myCarrotIconFill" id="1Wo-xt-1nb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Kd-ln-qk0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165" y="1096"/>
+        </scene>
+        <!--채팅-->
+        <scene sceneID="UNK-cc-aF3">
+            <objects>
+                <viewController id="i8X-5X-Chd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="82A-eD-QkZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QBv-5j-IWq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="채팅" image="chatIcon" selectedImage="chatIconFill" id="hoy-5V-ged"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86f-7k-ZRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="1096"/>
+        </scene>
+        <!--내 근처-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Danggeun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="내 근처" image="myAroundIcon" selectedImage="myAroundIconFill" id="yd3-2b-uwz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="1096"/>
+        </scene>
+        <!--동네생활-->
+        <scene sceneID="SUP-ws-rzQ">
+            <objects>
+                <viewController storyboardIdentifier="TownViewController" automaticallyAdjustsScrollViewInsets="NO" id="ywD-ND-GnP" customClass="TownViewController" customModule="Danggeun" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UEj-n1-CVV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7L8-uI-wBX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="goa-lo-2n3"/>
+                                </constraints>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="-325" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="철산동" largeTitleDisplayMode="always" id="qUd-CO-RXB">
+                                        <rightBarButtonItems>
+                                            <barButtonItem image="bell" catalog="system" id="eyM-xv-JZD">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="line.horizontal.3" catalog="system" id="M9Y-K6-PY0">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </barButtonItem>
+                                            <barButtonItem image="magnifyingglass" catalog="system" id="lpn-KE-R2s">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-vF-yHX">
+                                <rect key="frame" x="0.0" y="88" width="414" height="59"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="6Dw-7A-EZf"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hSC-ET-dGG">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9jy-lK-0EF">
+                                        <rect key="frame" x="0.0" y="-34.5" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="koJ-Ob-foG">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="6Cb-j9-eQ8">
+                                <rect key="frame" x="0.0" y="155" width="414" height="658"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X3K-un-Okr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7L8-uI-wBX" firstAttribute="top" secondItem="X3K-un-Okr" secondAttribute="top" id="69t-bN-bln"/>
+                            <constraint firstItem="bCG-vF-yHX" firstAttribute="leading" secondItem="7L8-uI-wBX" secondAttribute="leading" id="OBh-gT-NIs"/>
+                            <constraint firstItem="6Cb-j9-eQ8" firstAttribute="leading" secondItem="X3K-un-Okr" secondAttribute="leading" id="OaF-MR-Qy6"/>
+                            <constraint firstItem="7L8-uI-wBX" firstAttribute="centerX" secondItem="UEj-n1-CVV" secondAttribute="centerX" id="XqO-qr-A5z"/>
+                            <constraint firstItem="7L8-uI-wBX" firstAttribute="leading" secondItem="X3K-un-Okr" secondAttribute="leading" id="ZDv-0g-jRn"/>
+                            <constraint firstItem="6Cb-j9-eQ8" firstAttribute="bottom" secondItem="X3K-un-Okr" secondAttribute="bottom" id="Zb6-wL-AXg"/>
+                            <constraint firstItem="6Cb-j9-eQ8" firstAttribute="trailing" secondItem="X3K-un-Okr" secondAttribute="trailing" id="gLi-3u-tG5"/>
+                            <constraint firstItem="6Cb-j9-eQ8" firstAttribute="top" secondItem="bCG-vF-yHX" secondAttribute="bottom" constant="8" symbolic="YES" id="h1r-hV-pTJ"/>
+                            <constraint firstItem="bCG-vF-yHX" firstAttribute="trailing" secondItem="7L8-uI-wBX" secondAttribute="trailing" id="nJu-m6-v0H"/>
+                            <constraint firstItem="bCG-vF-yHX" firstAttribute="top" secondItem="7L8-uI-wBX" secondAttribute="bottom" id="q03-I4-rFT"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="동네생활" image="townIcon" selectedImage="townIconFill" id="pPB-lN-JyO"/>
+                    <connections>
+                        <outlet property="collectionView" destination="bCG-vF-yHX" id="Hqo-Md-3GI"/>
+                        <outlet property="tableView" destination="6Cb-j9-eQ8" id="gH2-p8-p22"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="371-jf-gs1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715.9420289855075" y="441.96428571428572"/>
+        </scene>
+        <!--Blur2 View Controller-->
+        <scene sceneID="mx0-vI-Zc9">
+            <objects>
+                <viewController storyboardIdentifier="Blur2ViewController" id="p13-Di-3Ps" customClass="Blur2ViewController" customModule="Danggeun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lWU-jO-5Oq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwE-Bc-2VZ">
+                                <rect key="frame" x="235" y="636" width="142" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="🗒 동네 생활">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sellBtn:" destination="p13-Di-3Ps" eventType="touchUpInside" id="3gS-Q7-uLP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wzi-Kf-R6b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="blurv" destination="lWU-jO-5Oq" id="C31-Qj-y1B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvd-hX-WGz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2430" y="442"/>
+        </scene>
+        <!--Add View Controller-->
+        <scene sceneID="qTF-Y8-aNe">
+            <objects>
+                <viewController storyboardIdentifier="AddViewController" id="YYf-zY-eiX" customClass="AddViewController" customModule="Danggeun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Jv-yk-nw7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fmj-tV-LYV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fVH-0m-b9O"/>
+                                </constraints>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="동네생활 글쓰기" largeTitleDisplayMode="always" id="8oR-5R-wkZ">
+                                        <barButtonItem key="leftBarButtonItem" image="xmark" catalog="system" id="o1e-pv-szL">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="완료" id="Esd-ud-FqP">
+                                            <color key="tintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="cplBtn:" destination="YYf-zY-eiX" id="JmQ-xQ-6fr"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G2A-tZ-LmD">
+                                <rect key="frame" x="20" y="108" width="374" height="754"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P3o-DL-3jF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="G2A-tZ-LmD" firstAttribute="leading" secondItem="P3o-DL-3jF" secondAttribute="leading" constant="20" id="2Vr-nI-7UP"/>
+                            <constraint firstItem="fmj-tV-LYV" firstAttribute="leading" secondItem="2Jv-yk-nw7" secondAttribute="leading" id="7vm-JG-o7s"/>
+                            <constraint firstItem="fmj-tV-LYV" firstAttribute="top" secondItem="P3o-DL-3jF" secondAttribute="top" id="Ood-Ig-ypw"/>
+                            <constraint firstItem="P3o-DL-3jF" firstAttribute="trailing" secondItem="G2A-tZ-LmD" secondAttribute="trailing" constant="20" id="Unq-8v-2Pl"/>
+                            <constraint firstItem="fmj-tV-LYV" firstAttribute="top" secondItem="P3o-DL-3jF" secondAttribute="top" id="da0-aR-hU8"/>
+                            <constraint firstItem="G2A-tZ-LmD" firstAttribute="top" secondItem="fmj-tV-LYV" secondAttribute="bottom" constant="20" id="thC-X2-ugk"/>
+                            <constraint firstAttribute="trailing" secondItem="fmj-tV-LYV" secondAttribute="trailing" id="xmq-bD-5mZ"/>
+                            <constraint firstItem="G2A-tZ-LmD" firstAttribute="bottom" secondItem="P3o-DL-3jF" secondAttribute="bottom" id="yO4-gl-9NL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="G2A-tZ-LmD" id="IQU-ev-7qd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFd-Hd-elm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3108.6956521739135" y="441.96428571428572"/>
+        </scene>
+        <!--홈-->
+        <scene sceneID="S5t-ha-L3g">
+            <objects>
+                <viewController id="MOz-aW-Omr" customClass="HomeViewController" customModule="Danggeun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dys-T8-FVI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2L-qo-8Fo">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="epG-Zl-QYQ"/>
+                                </constraints>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="-325" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="철산동" largeTitleDisplayMode="always" id="VTc-8Q-Oks">
+                                        <rightBarButtonItems>
+                                            <barButtonItem image="bell" catalog="system" id="i9X-3h-Rwh">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </barButtonItem>
+                                            <barButtonItem image="line.3.horizontal" catalog="system" id="YNW-xG-EB4">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </barButtonItem>
+                                            <barButtonItem image="magnifyingglass" catalog="system" id="Chh-Kd-0o4">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8dV-WL-7nk">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tod-Sy-oaK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8dV-WL-7nk" firstAttribute="leading" secondItem="tod-Sy-oaK" secondAttribute="leading" id="1By-cZ-5Bm"/>
+                            <constraint firstItem="8dV-WL-7nk" firstAttribute="top" secondItem="K2L-qo-8Fo" secondAttribute="bottom" id="6yy-Cl-PkY"/>
+                            <constraint firstItem="K2L-qo-8Fo" firstAttribute="leading" secondItem="8dV-WL-7nk" secondAttribute="leading" id="BXk-Yx-M36"/>
+                            <constraint firstItem="8dV-WL-7nk" firstAttribute="bottom" secondItem="tod-Sy-oaK" secondAttribute="bottom" id="KuA-gx-GTy"/>
+                            <constraint firstItem="8dV-WL-7nk" firstAttribute="trailing" secondItem="tod-Sy-oaK" secondAttribute="trailing" id="QHx-dq-2HD"/>
+                            <constraint firstItem="K2L-qo-8Fo" firstAttribute="trailing" secondItem="8dV-WL-7nk" secondAttribute="trailing" id="TAP-0a-Wxl"/>
+                            <constraint firstItem="K2L-qo-8Fo" firstAttribute="top" secondItem="tod-Sy-oaK" secondAttribute="top" id="biC-de-n9n"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="홈" image="homeIcon" selectedImage="homeIconFill" id="44h-X3-lMu">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="tableView" destination="8dV-WL-7nk" id="G2d-JO-3Cl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lt2-wA-9Rb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717.3913043478262" y="-206.25"/>
+        </scene>
+        <!--Blur View Controller-->
+        <scene sceneID="mAN-aZ-x6l">
+            <objects>
+                <viewController storyboardIdentifier="BlurViewController" id="gYg-ca-57E" customClass="BlurViewController" customModule="Danggeun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uyh-SL-Rl9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSp-7p-8De">
+                                <rect key="frame" x="236" y="636" width="142" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="📦 내 물건 팔기">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sellBtn:" destination="gYg-ca-57E" eventType="touchUpInside" id="3Do-x0-3dQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ft8-zg-uX4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="blurv" destination="Uyh-SL-Rl9" id="ZuX-Ts-M7J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FOO-ka-BWN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2430.434782608696" y="-206.25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IZh-Do-aPx">
+            <objects>
+                <viewController id="8F3-aH-u4b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XWh-Hf-ehf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Lw-Am-JQA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7iF-aa-1NT"/>
+                                </constraints>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="철산동" largeTitleDisplayMode="always" id="Hoz-y1-2zE">
+                                        <barButtonItem key="leftBarButtonItem" image="xmark" catalog="system" id="3h7-bS-giY">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="완료" id="J2c-k5-Nci">
+                                            <color key="tintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nDl-Tg-G1n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4Lw-Am-JQA" firstAttribute="top" secondItem="nDl-Tg-G1n" secondAttribute="top" id="Yv7-GP-LGC"/>
+                            <constraint firstItem="4Lw-Am-JQA" firstAttribute="leading" secondItem="nDl-Tg-G1n" secondAttribute="leading" id="ie6-ng-p96"/>
+                            <constraint firstItem="4Lw-Am-JQA" firstAttribute="centerX" secondItem="XWh-Hf-ehf" secondAttribute="centerX" id="xuv-cu-7Kr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sCy-B8-3fe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3110" y="-206"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="j8b-MI-aLP">
+            <objects>
+                <tabBarController id="iUU-bV-mEb" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lKK-kq-dK4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MOz-aW-Omr" kind="relationship" relationship="viewControllers" id="DvS-lj-iBQ"/>
+                        <segue destination="ywD-ND-GnP" kind="relationship" relationship="viewControllers" id="Yyc-oC-Qer"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="sG1-Jq-L0a"/>
+                        <segue destination="i8X-5X-Chd" kind="relationship" relationship="viewControllers" id="r7L-SA-Y5c"/>
+                        <segue destination="xBk-gU-V4W" kind="relationship" relationship="viewControllers" id="ZKe-Mx-qhi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23s-JQ-fCl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="chatIcon" width="32" height="32"/>
+        <image name="chatIconFill" width="32" height="32"/>
+        <image name="homeIcon" width="33" height="33"/>
+        <image name="homeIconFill" width="33" height="33"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="myAroundIcon" width="32" height="32"/>
+        <image name="myAroundIconFill" width="32" height="32"/>
+        <image name="myCarrotIcon" width="32" height="32"/>
+        <image name="myCarrotIconFill" width="32" height="32"/>
+        <image name="townIcon" width="32" height="32"/>
+        <image name="townIconFill" width="32" height="32"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
